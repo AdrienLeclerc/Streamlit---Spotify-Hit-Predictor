@@ -26,8 +26,7 @@ from sklearn.ensemble import RandomForestClassifier
 df_artist, min_df, max_df, mean_df, df_artist_mean = load_data()
 
 st.set_page_config(page_title = "Spotify Hit Predictor",
-                   page_icon = ":notes:",
-                   layout = 'wide')
+                   page_icon = ":notes:")
 
 with st.sidebar:
 
