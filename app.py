@@ -22,11 +22,13 @@ from sklearn.cluster import KMeans
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
+st.set_page_config(page_title = "Spotify Hit Predictor",
+                   page_icon = ":notes:",
+                   layout = 'wide')
+
+
 #loading the data
 df_artist, min_df, max_df, mean_df, df_artist_mean = load_data()
-
-st.set_page_config(page_title = "Spotify Hit Predictor",
-                   page_icon = ":notes:")
 
 with st.sidebar:
 
