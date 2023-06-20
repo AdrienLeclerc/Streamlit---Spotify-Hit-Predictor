@@ -278,7 +278,7 @@ if navigation == "Hit Predictor" :
             st.markdown(tempo)
 
         st.image("Images/sections.png")
-        section_input = st.number_input(' ', min_value = 0, max_value = 200, value = 10, step = 5, key = "tempo")
+        section_input = st.number_input(' ', min_value = 0, max_value = 200, value = 10, step = 5, key = "sections")
         with st.expander('Details') : 
             st.markdown(sections)
 
