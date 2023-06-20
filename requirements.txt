@@ -2,4 +2,4 @@ streamlit
 pandas
 plotly
 streamlit_option_menu
-sklearn==1.1.1.
+scikit-learn
